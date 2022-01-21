@@ -48,10 +48,6 @@ app.use(
   }),
 );
 
-// app.use('/', (req, res) => {
-//   res.send('Hello!');
-// });
-
 app.use('/', require('./routes/index'));
 
 app.use(errorLogger);
